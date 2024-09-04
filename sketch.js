@@ -3,13 +3,13 @@ function setup() {
 }
 
 function draw() {
-  background(135,206,235);
+  background(135, 206, 235);
   fill("yellow");
-  CSSNumericValue(550,50,100);
+  circle(550, 50, 100);
   fill("green");
-  rect(0,200,600,200);
+  rect(0, 200, 600, 200);
 
   textSize(75)
-  text("🌸",100,250 )
-  text("🐞",mouseX,mouseY)
+  text("🌸", 100, 250 )
+  text("🐞", mouseX, mouseY)
 }
